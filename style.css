@@ -1,0 +1,86 @@
+
+.cover{
+	margin:0em;
+	height:400px;
+	background-image: url(img/fondoheader.jpg);
+	background-blend-mode: darken;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	background-size: cover;
+	background-position: center;
+}
+/* Esto es lo que definios para las portadas y tarjetas, el tamaño y la posicion*/
+
+div.card.text-center:hover{
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 0.3s ease;
+	overflow: hidden;
+
+}
+
+.card-title{
+	min-height: 3rem;
+	margin: 0;
+}
+
+.card-text{
+	min-height: 10rem;
+	padding: 15px;
+}
+
+/*Aqui solo definimos el tamaño minimo de la altura del titulo y texto de las tarjetas*/
+
+.responsive-iframe{
+	position: relative;
+	padding-top: 56.25%;
+
+}
+
+/*Aqui definimos la posicion y ajustamos el padding a una medida de 16:9*/
+
+.responsive-iframe iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.Oswald{
+	font-family: 'Oswald', sans-serif;
+}
+
+/*Aqui definimos la fuente para varios titulos*/
+
+.precio{
+	color: forestgreen;
+	
+}
+
+/*Aqui definimos el color del precio*/
+.card-product{
+	min-height: 4rem;
+}
+
+/*Con btn-custom ajustamos el color de los botones cuando esta libre y cuando esta el cursor sobre el boton*/
+.aux {
+	color: black;
+}
+
+.aux:hover{
+	color: snow;
+}
+
+.btn-custom{
+	background-color: white;
+}
+
+.btn-custom:hover{
+	background-color: black;
+}
+
+/*Con ajuste ajustamos las imagenes del footer de las redes sociales para que no se salgan de este margen*/
+ .ajuste{
+ 	width: 15rem;
+ 	height: 3rem;
+ }

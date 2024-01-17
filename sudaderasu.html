@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Aqui definimos el español -->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <!-- Aqui hacemos compatible con la version
+      mas nueva de Explorer -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Sudaderas - KidFit</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!--Aqui se importa el CSS con Bootstrap -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <script src="a.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!--Aqui se importa JS con Bootstrap -->
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light navbar-expand-lg bg-dark py-4">
+        <!-- Aqui abrimos un nav predeterminado con BS, nombrando con esas clases para que BS haga el diseño, navbar-light para letra blanca y bg-dark para su fondo negro-->
+        <div class="container-fluid">
+          <a
+            class="navbar-brand Oswald d-flex align-items-center"
+            style="color: white"
+            href="index.html"
+          >
+            <img
+              src="img/logo.png"
+              alt="Logo"
+              width="66"
+              height="60"
+              class="d-inline-block align-text-top"
+            />
+            <h3 class="Oswald">KidFit</h3>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Aqui con el navbar-toggler y navbar-toggler-icon definimos un boton para desplegar las opciones si es que se trabaja desde una pantalla mas chica-->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- Aqui justificamos los textos con collapse y definimos
+              el espacio con mb y lg, seguido de esto creamos listas no enumeradas-->
+              <li class="nav-item">
+                <a class="nav-link" href="rebajas.html" style="color: red"
+                  >Rebajas</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="color: #fff"
+                  >Unisex
+                  <!-- Aqui definimos con dropdown-toggle el tipo de boton, en este caso desplegable, el estilo define el color y que no se abra automaticamente con aria-expanded-->
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="camisasu.html">Camisas</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="pantalonesu.html"
+                      >Pantalones</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="conjuntosu.html"
+                      >Conjuntos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="sudaderasu.html"
+                      >Sudaderas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="accesoriosu.html"
+                      >Accesorios</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="zapatosu.html">Zapatos</a>
+                  </li>
+                </ul>
+                <!-- Con dropdown-item defino los apartados que tendra mi boton desplegable-->
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="color: #fff"
+                  >Niña
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="topsm.html">Tops</a></li>
+                  <li>
+                    <a class="dropdown-item" href="bottomsm.html">Bottoms</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="accesoriosm.html"
+                      >Accesorios</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="vestidosm.html">Vestidos</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="zapatosm.html">Zapatos</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="color: #fff"
+                  >Niño
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="pantalonesh.html"
+                      >Pantalones</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="camisash.html">Camisas</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="shortsh.html">Shorts</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="accesoriosh.html"
+                      >Accesorios</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="zapatosh.html">Zapatos</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sucursales.html" style="color: white"
+                  >Sucursales</a
+                >
+              </li>
+              <!-- Lo anterior fue un copy paste por lo tanto tiene los mismos atributos-->
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <!-- Aqui el d-flex no ayuda a acomodar apartados, en este caso es el apartado de busqueda
+                dandole su tipo, nos enfocamos al estilo visual, con btn-outline-light definimos su color-->
+              <button class="btn btn-outline-light" type="submit">
+                Search
+              </button>
+            </form>
+
+            <a class="navbar-brand" href="#" style="color: #fff">
+              <img src="img/carrito.png" alt="Carrito" width="29" height="24" />
+            </a>
+            <a
+              class="navbar-brand"
+              href="#"
+              style="color: #fff"
+              data-bs-toggle="modal"
+              data-bs-target="#loginModal"
+            >
+              <img src="img/logoIS.png" alt="IS" width="30" height="28" />
+            </a>
+
+            <div
+              class="modal fade"
+              id="loginModal"
+              tabindex="-1"
+              aria-labelledby="loginModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">
+                      Iniciar Sesión
+                    </h5>
+                    <!-- Aqui definimos el tamaño con h5, el modal-dialog es un dialogo por defecto para "errores" que el usuario puede cometer, identificamos el contenido con modal-content y le dirigimos
+                    una id, la cual nos identifica que es un Login con Bootstrap y nos predefine funciones, abajo 
+                    creamos el boton de cierre-->
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label"
+                          >Email address</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="exampleInputEmail1"
+                          aria-describedby="emailHelp"
+                        />
+                        <div id="emailHelp" class="form-text">
+                          We'll never share your email with anyone else.
+                        </div>
+                      </div>
+                      <!-- Aqui definimos el tipo de campo con email, despues la clase le asignamos un form-control
+                        que es la forma definida de login email, con el id podemos enviar el mensaje de advertencia
+                        y de la misma forma definimos abajo el password-->
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"
+                          >Password</label
+                        >
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="exampleInputPassword1"
+                        />
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="exampleCheck1"
+                        />
+                        <label class="form-check-label" for="exampleCheck1"
+                          >Recuerdame</label
+                        ><!-- Gracias a este lable podemos tener una casilla que podemos o no validar, el check-label
+                          nos ayuda con esto, igual que definir el tipo como checkbox-->
+                      </div>
+                      <button type="submit" class="btn btn-primary">
+                        Iniciar sesion
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <h3 class="text-center Oswald mt-3 text-decoration-underline">
+        Sudaderas KidFit
+      </h3>
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <!-- Aqui definimos el tamaño de las columnas dependiendo el tipo de pantalla-->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 mb-3">
+            <div class="card text-center" style="width: 15rem">
+              <div
+                class="cover"
+                style="
+                  background-image: url(img/ropau/sudaderas/sud1.jpg);
+                  background-color: rgba(0, 0, 0, 0);
+                  width: 223px;
+                  height: 320px;
+                "
+              ></div>
+              <!-- Aqui definimmos el cuerpo de nuestra tarjeta, asi como el titulo y la informacion del producto, ademas agregamos los botones de pago -->
+              <div class="card-body">
+                <h5 class="card-title Oswald">Sudadera PacMan</h5>
+                <p class="card-product">Sudadera retro de pacman</p>
+                <p class="precio text-decoration-underline fw-bold">$219.99</p>
+                <button class="btn btn-outline-dark mb-2">
+                  Agregar al carrito
+                </button>
+                <a href="https://www.paypal.com/" class="btn btn-outline-dark"
+                  >Comprar ahora</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 mb-3">
+            <div class="card text-center" style="width: 15rem">
+              <div
+                class="cover"
+                style="
+                  background-image: url(img/ropau/sudaderas/sud2.jpg);
+                  background-color: rgba(0, 0, 0, 0);
+                  width: 223px;
+                  height: 320px;
+                "
+              ></div>
+              <!-- Aqui definimmos el cuerpo de nuestra tarjeta, asi como el titulo y la informacion del producto, ademas agregamos los botones de pago -->
+              <div class="card-body">
+                <h5 class="card-title Oswald">Sudadera Minecraft</h5>
+                <p class="card-product">
+                  No Carlos, no te la vamos a comprar
+                </p>
+                <p class="precio text-decoration-underline fw-bold">$249.99</p>
+                <button class="btn btn-outline-dark mb-2">
+                  Agregar al carrito
+                </button>
+                <a href="https://www.paypal.com/" class="btn btn-outline-dark"
+                  >Comprar ahora</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 mb-3">
+            <div class="card text-center" style="width: 15rem">
+              <div
+                class="cover"
+                style="
+                  background-image: url(img/ropau/sudaderas/sud3.jpg);
+                  background-color: rgba(0, 0, 0, 0);
+                  width: 223px;
+                  height: 320px;
+                "
+              ></div>
+              <!-- Aqui definimmos el cuerpo de nuestra tarjeta, asi como el titulo y la informacion del producto, ademas agregamos los botones de pago -->
+              <div class="card-body">
+                <h5 class="card-title Oswald">Sudadera Spider-boy</h5>
+                <p class="card-product">
+                  Sudadera de manga larga con gorro y estampado de spiderman
+                </p>
+                <p class="precio text-decoration-underline fw-bold">$199.99</p>
+                <button class="btn btn-outline-dark mb-2">
+                  Agregar al carrito
+                </button>
+                <a href="https://www.paypal.com/" class="btn btn-outline-dark"
+                  >Comprar ahora</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 mb-3">
+            <div class="card text-center" style="width: 15rem">
+              <div
+                class="cover"
+                style="
+                  background-image: url(img/ropau/sudaderas/sud4.png);
+                  background-color: rgba(0, 0, 0, 0);
+                  width: 223px;
+                  height: 320px;
+                "
+              ></div>
+              <!-- Aqui definimmos el cuerpo de nuestra tarjeta, asi como el titulo y la informacion del producto, ademas agregamos los botones de pago -->
+              <div class="card-body">
+                <h5 class="card-title Oswald">Sudadera Navi-Rex</h5>
+                <p class="card-product">
+                  Sudadera para aumentar el espiritu navideño
+                </p>
+                <p class="precio text-decoration-underline fw-bold">$499.99</p>
+                <button class="btn btn-outline-dark mb-2">
+                  Agregar al carrito
+                </button>
+                <a href="https://www.paypal.com/" class="btn btn-outline-dark"
+                  >Comprar ahora</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 mb-3">
+            <div class="card text-center" style="width: 15rem">
+              <div
+                class="cover"
+                style="
+                  background-image: url(img/ropau/sudaderas/sud5.jpg);
+                  background-color: rgba(0, 0, 0, 0);
+                  width: 223px;
+                  height: 320px;
+                "
+              ></div>
+              <!-- Aqui definimmos el cuerpo de nuestra tarjeta, asi como el titulo y la informacion del producto, ademas agregamos los botones de pago -->
+              <div class="card-body">
+                <h5 class="card-title Oswald">Sudadera Estrella</h5>
+                <p class="card-product">
+                  Sudadera casual con estampado de estrella en la parte frontal
+                </p>
+                <p class="precio text-decoration-underline fw-bold">$249.99</p>
+                <button class="btn btn-outline-dark mb-2">
+                  Agregar al carrito
+                </button>
+                <a href="https://www.paypal.com/" class="btn btn-outline-dark"
+                  >Comprar ahora</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-3 mb-3">
+            <div class="card text-center" style="width: 15rem">
+              <div
+                class="cover"
+                style="
+                  background-image: url(img/ropau/sudaderas/sud6.jpg);
+                  background-color: rgba(0, 0, 0, 0);
+                  width: 223px;
+                  height: 320px;
+                "
+              ></div>
+              <!-- Aqui definimmos el cuerpo de nuestra tarjeta, asi como el titulo y la informacion del producto, ademas agregamos los botones de pago -->
+              <div class="card-body">
+                <h5 class="card-title Oswald">Sudadera CatKiss</h5>
+                <p class="card-product">Sudadera cafe con estampado de gatitos inspirada en Kiss</p>
+                <p class="precio text-decoration-underline fw-bold">$129.99</p>
+                <button class="btn btn-outline-dark mb-2">
+                  Agregar al carrito
+                </button>
+                <a href="https://www.paypal.com/" class="btn btn-outline-dark"
+                  >Comprar ahora</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-light py-5" id="Contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Contacto</h4>
+            <p>Información de contacto aquí</p>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fas fa-envelope"></i> Correo Electrónico:
+                kidfitFCFM@contacto.com
+              </li>
+              <li><i class="fas fa-phone"></i> Teléfono: +52 81 2771 4006</li>
+              <li><a href="sucursales.html" style="color: white;">Sucursales</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Síguenos en Redes Sociales</h4>
+            <ul
+              class="list-unstyled d-flex justify-content-between align-items-center social-icons ajuste"
+            >
+              <li>
+                <a href="https://www.facebook.com"
+                  ><img
+                    src="img/facebook-icon.png"
+                    alt="Facebook"
+                    width="25px"
+                    height="25px"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.x.com"
+                  ><img
+                    src="img/twitter-icon.png"
+                    alt="Twitter"
+                    width="25px"
+                    height="20px"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com"
+                  ><img
+                    src="img/instagram-icon.png"
+                    alt="Instagram"
+                    width="20px"
+                    height="20px"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com"
+                  ><img
+                    src="img/tiktok-icon.png"
+                    alt="tiktok"
+                    width="25px"
+                    height="25px"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>Derechos de autor &copy; 2023. KidFit</p>
+      </div>
+    </footer>
+  </body>
+</html>
